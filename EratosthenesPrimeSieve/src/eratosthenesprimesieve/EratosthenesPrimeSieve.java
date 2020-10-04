@@ -92,9 +92,9 @@ public class EratosthenesPrimeSieve implements PrimeSieve {
 
         
 
-        for (int i = 0; i < obgrze; i++) {
+        for (int i = 0; i <= obgrze; i++) {
 
-            if (i > 3) {
+            if (i < 3) {
             } else {
                 if ((i % 2) == 0) {
                     listbspZWEI.add(i + " Summe: " + i + " = " + beispielZWEI(i));
